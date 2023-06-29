@@ -1,0 +1,175 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+header{
+    background-color: #024959;
+}
+
+header>.navbar a{
+    color: #Fff;
+}
+
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #024959;
+    box-shadow: 0px 15px 20px rgba(82, 119, 104, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+
+  #inicio{
+    background-color: #3CA6A6;
+    
+  }
+
+  #hero{
+    background-color: #3CA6A6;
+    
+  }
+  
+  p a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  #hi{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  #sdev{
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 24px;
+  }
+
+  #nome{
+    color: #Fff;
+    font-size: 96px;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5;
+  }
+
+  h3{
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .lorem{
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .content-titulo{
+    font-size: 58px;
+    line-height: 80px;
+    font-family: 'Playfair Display', serif;;
+  }
+
+  footer .contact-box{
+    background-color: #3CA6A6;
+    
+  }
+
+  .rodape{
+    width: 100%;
+    text-align: center;
+    background-color: #026773;
+    color:#EBF0F2;
+  }
+
+  .footerTexto{
+    color: #Fff;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 600px) {
+    div .card {
+      width: 18rem;
+    }
+
+
+  }
+
+  .border{
+    border: 0.5 solid red;
+    padding: 10px;
+  }
+
+  footer a i{
+    font-size: 20px;
+    color: #EBF0F2;
+    
+  }
+
+  .btn-marta{
+    background-color:#F2916D ;
+    color: #Fff;
+    border: none;
+    padding: 15px;
+    border-radius: 20%;
+  }
+
+
+ .bi {
+    font-size: 30px;
+    color: #3CA6A6;
+  }
+
+  .bi-contact{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }  
+
+  .card-title{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+
+  .card-text{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+
+  .card-body{
+    background-color: rgb(60, 166, 166, 0.2)
+  }
